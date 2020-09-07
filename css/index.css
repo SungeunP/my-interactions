@@ -1,9 +1,33 @@
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
 body {
+  position: absolute;
+  top: 0px;
+  left: 0px;
   margin: 0px;
+  margin-top: 0px;
   width: 100vw;
   height: 100vh;
 }
 
 #App {
-  margin: 0px 370px;
+  width: 100vw;
+  height: 100vh;
+}
+
+#Wrapper {
+  width: calc(100% - 200px);
+  height: 100%;
+  margin: 0px 100px;
+}
+
+p {
+  margin: 0px;
+}
+
+div {
+  box-sizing: border-box;
 }
